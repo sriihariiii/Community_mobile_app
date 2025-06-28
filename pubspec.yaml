@@ -1,0 +1,54 @@
+name: lil_circle
+description: A new Flutter project for the Lil Circle app.
+publish_to: 'none' # Remove this line if publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.2
+
+  # External Links
+  url_launcher: ^6.2.5
+
+  # Firebase Core & Auth
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.6
+  cloud_firestore: ^4.17.5
+
+  # Social Login
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.png
+    - assets/images/lil_listens.png
+    - assets/images/creator.png
+    - assets/images/lil_podcast.png
+    - assets/images/lil_screens.png
+    - assets/images/lil_learning.png
+    - assets/images/events.png
+    - assets/images/tiny_tales.png
+    - assets/images/profile.png
+    - assets/images/logo.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700

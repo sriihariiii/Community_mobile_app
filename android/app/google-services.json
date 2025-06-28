@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302087771391",
+    "project_id": "lil-circle-fcdc2",
+    "storage_bucket": "lil-circle-fcdc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302087771391:android:954d77de0a2f9ce78068ca",
+        "android_client_info": {
+          "package_name": "com.example.lil_circle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGHNMJfMECf9X9MvzZSlpLkydJaAk--_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
